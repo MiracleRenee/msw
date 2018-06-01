@@ -1,0 +1,94 @@
+<div class="cork"></div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 boxes" id="no-border-left">
+      <div>
+        <h1>MSW </h1>
+        <i class="fas fa-book-open"></i>
+
+
+        <p> Miracles, Signs, and Wonders foundation provides development services for African American Youth.
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 boxes">
+      <div>
+        <h1>Vision Boards</h1>
+        <i class="fas fa-eye"></i>
+        <p> Its a map of action. We literally transfer the vision from your mind to a board for clarity.
+
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 boxes">
+      <div>
+        <h1>Speak Boards</h1>
+        <i class="fas fa-comment"></i>
+        <p>
+          We make a board of confessions and we speak them out loud daily.
+
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 boxes" (click)="open(content)" id="no-border-right">
+      <div>
+        <h1>Donate</h1>
+        <i class="fas fa-hand-holding-usd" data-toggle="tooltip" data-placement="top" title="Click Here to Donate!"></i>
+        <p>Helps provide supplies and refreshments while the youth create!
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- popup here -->
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">Payment information</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+
+    <div>
+
+
+      <input type="text" placeholder="Name On Card" class="cardinfo"> </div>
+    <br>
+
+
+    <div>
+      <input type="text" placeholder="Card Number" class="cardinfo"> </div>
+    <br>
+    <i class="fab fa-cc-visa"></i>
+
+    <div>
+      <input type="text" placeholder=" EXP 00/00" class="cardinfo"> </div>
+    <br>
+
+    <div>
+      <input type="text" placeholder=" CVV" class="cardinfo"> </div>
+    <br>
+
+    <div>
+      <input type="text" placeholder="Amount" class="cardinfo"> </div>
+
+
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Donate Now</button>
+  </div>
+</ng-template>

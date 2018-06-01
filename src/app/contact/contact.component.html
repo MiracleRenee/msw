@@ -1,0 +1,33 @@
+<div>
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>YOU NEVER KNOW WHO CAN BE UPLIFTED BY YOUR TESTIMONY! </p>
+    </div>
+    <div class="row">
+      <div class="column">
+      </div>
+      <div class="column">
+        <img src="../../assets/af83e7f05bf6fb6f44c00f0367b19d78.jpg" alt="full background">
+        <form action="/action_page.php" #contactForm="ngForm" (ngSubmit)="submit()">
+          <label for="fname">First Name</label>
+          <input type="textname" id="fname" name="firstName" placeholder="Your first name.." [(ngModel)]="contact.firstName">
+          <br>
+          <br>
+          <label for="lname">Last Name</label>
+          <input type="textlname" id="lname" name="lastName" placeholder="Your last name.." [(ngModel)]="contact.lastName">
+          <br>
+          <br>
+          <label for="email">Email</label>
+         <input type="textemail" id="email" name="email" placeholder=" Email Address" [(ngModel)]="contact.email">
+         <br>
+         <br>
+          <label for="subject">Content</label>
+          <input type="textcontent" id="subject" name="content" placeholder="Content" style="height:100px" [(ngModel)]="contact.content">
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

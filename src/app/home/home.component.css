@@ -1,0 +1,96 @@
+*{
+  font-family: 'Poiret One', cursive;
+}
+
+.cork{
+  height: 60vh;
+  width: 100vw;
+ background-image: url("../../assets/calm_maybe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -305px;
+  margin-bottom: 25px;
+}
+  
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #FFBA49;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background: #2DE1FC;
+  }
+  
+#donatesection{
+  background-color: #06BA63;
+}
+#DT{
+  color: #F2EFEA; 
+}
+.cardinfo{
+  align-content: center;
+}
+p{
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+h1{
+  font-weight: 500;
+}
+.boxes{
+  border-right: solid thin beige;
+  border-left: solid thin  beige;
+  height: 200px;
+  text-align: center;
+}
+
+#no-border-left{
+  border-left: none;
+}
+
+#no-border-right{
+  border-right: none;
+}
+
+.fas,.far{
+  font-family: Font Awesome\ 5 Free !important;
+}
+
+
+.fa-book-open{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: skyblue; 
+  font-size: 40px;
+}
+  
+.fa-hand-holding-usd{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: skyblue; 
+  font-size: 40px;
+}
+
+.fa-eye{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: skyblue; 
+  font-size: 40px;
+}
+.fa-sticky-note{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: skyblue; 
+  font-size: 40px;
+}
+.fa-comment{  
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: skyblue; 
+  font-size: 40px;
+
+}

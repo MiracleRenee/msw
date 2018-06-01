@@ -1,0 +1,12 @@
+#navbarSupportedContent {
+    float: right;
+}
+.toolbar{
+    background-color: white;
+}
+
+.navbar-brand{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 30px;
+    padding-left: 40px;
+}
